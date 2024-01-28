@@ -5,11 +5,11 @@ import styles from "./style.module.css"
 import { usePathname } from 'next/navigation';
 
 const links = [
-    {id:0,to:'/',title:'About'},
-    {id:1,to:'/Menu',title:'Menu'},
-    {id:2,to:'/Beverages',title:'Beverages'},
-    {id:3,to:'/Delivery',title:'Delivery'},
-    {id:4,to:'/Contact us',title:'Contact us'},
+    {id:0,to:'/',title:'Ana səhifə'},
+    {id:1,to:'/Kateqoriya',title:'Kateqoriya'},
+    {id:2,to:'/Mağaza',title:'Mağaza'},
+    {id:3,to:'/Blog',title:'Blog'},
+    {id:4,to:'/Səhifə ',title:'Səhifə '},
 ];
 
 

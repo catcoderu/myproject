@@ -1,6 +1,5 @@
 .navigation {
-    height: 400px;
-    background-image: url("/kebab.png");
+    height: 20px;
     display: flex;
     justify-content: center;
     align-items: center;

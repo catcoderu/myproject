@@ -1,23 +1,21 @@
 .navigation {
     display: flex;
-    justify-content: space-between;
+    margin-left: 60px;
     align-items: flex-end;
     padding: 10px 0;
+    
+    
 }
 
-.phoneNumber{
-    color: black;
-    border-radius: 100px;
-    background: white;
-    box-shadow: 0px 0px 10px 0px rgb(223, 222, 222);
-    display: inline-block;
-    padding: 10px 20px;
+.logo{
+    justify-content:flex-start
+}
+.navbar{
+    justify-content: center;
+    margin: 10px;
 }
 
-.navigation svg{
-    color: rgb(11, 209, 11);
-   
-}
+
 
 .title{
     width: 40%;
