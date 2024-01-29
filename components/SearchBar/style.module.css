@@ -1,0 +1,14 @@
+.search{
+    background-color: black;
+    display: flex;
+   
+    justify-content: flex-end;
+}
+
+.searchbar{
+    background-color: rgb(215, 27, 27);
+}
+
+.btn{
+    color: red;
+}
