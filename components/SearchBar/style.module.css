@@ -9,9 +9,19 @@
     background: #FCE8EC;
     outline: none;
     border: none;
-    padding: 8px;
+    padding: 10px;
 }
 
 .btn {
-    color: red;
+    background-color: #E21A43;
+    padding: 10px;
+    color: white;
+    outline: none;
+}
+
+.personbtn, .shopbtn{
+    background-color:#FCE8EC;
+    padding: 10px;
+    color:  #E21A43;
+    outline: none;
 }
