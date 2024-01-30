@@ -9,9 +9,15 @@
 
 .container{
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
     padding: 0 15px;
-    margin: 30px;
 }
 
+a.nav{
+    color: black;
+}
 
+a.activeNav {
+    color: #E21A43;
+    font-weight: 700;
+}

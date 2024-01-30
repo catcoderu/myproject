@@ -15,6 +15,8 @@ const links = [
 
 const Navigation = () => {
     const pathname=usePathname();
+    console.log(pathname);
+    
   return (
     <div className='container'>
     <nav className={styles.navigation}>
@@ -22,7 +24,7 @@ const Navigation = () => {
    <div className={styles.links}>
    { links.map(({id,to,title})=>{
             return (
-            <Link className={pathname === to ? 'active' : ''} href={to} key={id}>
+            <Link className={pathname === to ? 'activeNav' : 'nav'} href={to} key={id}>
                 {title}
                 </Link>
                 );

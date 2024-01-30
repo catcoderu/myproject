@@ -6,8 +6,8 @@ const SearchBar = () => {
   return (
     <form >
       <div className={styles.search}>
-      <input className='{styles.searchbar}' type="search" placeholder='Bura yazın' />
-      <button className='{styles.btn}'><CiSearch /></button></div>
+        <input className={styles.searchbar} type="search" placeholder='Bura yazın' />
+        <button className={styles.btn}><CiSearch /></button></div>
     </form>
   );
 }

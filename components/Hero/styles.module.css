@@ -1,0 +1,54 @@
+.hero {
+    display: flex;
+    padding: 30px 0;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero_left {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 2rem;
+}
+
+
+.title {
+
+    font-size: 50px;
+
+
+}
+
+.title span {
+    color: #F7BBC7;
+}
+
+
+.button {
+    color: #E21A43;
+    background-color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 8px;
+    border-color: #E21A43;
+    margin-right: 10px;
+    transition: .5s all ease-in-out;
+}
+
+.button:hover {
+    color: white;
+    background-color: #E21A43;
+}
+
+@media (max-width:992px) {
+    .title {
+        font-size: 60px;
+        text-align: center;
+    }
+}
