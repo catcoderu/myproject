@@ -1,4 +1,4 @@
-import NewProducts from "../NewProducts/Index"
+
 import styles from "./styles.module.css"
 import Image from 'next/image'
 
@@ -35,8 +35,7 @@ const Hero = () => {
                                  <Image src="/Sweets.png" alt="Sweets" width={57} height={67} />
                                 
                             </div>
-                            <h3>-New Products-</h3> 
-                            <NewProducts/>
+                            
         </>
     )
 }
