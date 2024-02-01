@@ -1,5 +1,7 @@
+import NewProducts from "../NewProducts/Index"
 import styles from "./styles.module.css"
 import Image from 'next/image'
+
 
 const Hero = () => {
     return (
@@ -16,12 +18,25 @@ const Hero = () => {
                                 <button className={styles.button}>INDI ALMAQ</button>
                                 <button className={styles.button}>DAHA ƏTRAFLI</button>
                             </div>
+                            
                         </div>
                     </div>
 
                 </div>
                         <div className={styles.bannerImage}> <Image src="/sushi.png" alt="sushi" width={550} height={500} /></div>
             </section>
+            <div className={styles.productsIcons}>
+                                 <Image src="/Fruits.png" alt="Fruits" width={57} height={67} />
+                                 <Image src="/Vegetables.png" alt="Vegetable" width={57} height={67} />
+                                 <Image src="/Semi-finished.png" alt="Semi-finished" width={57} height={67} />
+                                 <Image src="/Bakery.png" alt="Bakery" width={57} height={67} />
+                                 <Image src="/Meat.png" alt="Meat" width={57} height={67} />
+                                 <Image src="/Pasta.png" alt="Pasta" width={57} height={67} />
+                                 <Image src="/Sweets.png" alt="Sweets" width={57} height={67} />
+                                
+                            </div>
+                            <h3>-New Products-</h3> 
+                            <NewProducts/>
         </>
     )
 }
