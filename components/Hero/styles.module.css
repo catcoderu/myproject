@@ -46,6 +46,13 @@
     background-color: #E21A43;
 }
 
+.productsIcons{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   gap: 37px;
+}
+
 @media (max-width:992px) {
     .title {
         font-size: 60px;

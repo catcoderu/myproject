@@ -1,7 +1,5 @@
 .search {
-    background-color: black;
     display: flex;
-
     justify-content: flex-end;
 }
 
@@ -16,12 +14,14 @@
     background-color: #E21A43;
     padding: 10px;
     color: white;
-    outline: none;
+    border: none;
+    margin-right: 20px;
 }
 
 .personbtn, .shopbtn{
     background-color:#FCE8EC;
     padding: 10px;
     color:  #E21A43;
-    outline: none;
+    border: none;
+    margin-right: 20px;
 }
