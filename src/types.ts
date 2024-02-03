@@ -8,3 +8,11 @@
   }
 
   
+ export interface IItems {
+  id: number;
+  image: string;
+  title: string
+  description: string;
+  price: string;
+  
+}

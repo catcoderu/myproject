@@ -15,7 +15,7 @@ const Hero = () => {
                             <h1 className={styles.title}>Mükəmməl <span>Səhər Yeməyi</span> üçün Sizə Lazım Olan Hər şey </h1>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500</p>
                             <div>
-                                <button className={styles.button}>INDI ALMAQ</button>
+                                <button className={styles.button}>INDI AL</button>
                                 <button className={styles.button}>DAHA ƏTRAFLI</button>
                             </div>
                             

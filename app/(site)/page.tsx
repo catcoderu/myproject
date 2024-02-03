@@ -4,6 +4,7 @@ import SpicealService from '@/components/SpicealService/index'
 import BestSelling from '@/components/BestSelling/Index'
 import Delivery from '@/components/Delivery/Index'
 import React from 'react'
+import Items from '@/components/Items/Index'
 
 const page = () => {
   return (
@@ -16,6 +17,9 @@ const page = () => {
    <BestSelling/>
    <NewProducts/>
    <Delivery/>
+   <h2>-Ən çox satılan məhsul-</h2>
+   <BestSelling/>
+   <Items/>
 </>
   )
 }
