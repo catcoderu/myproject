@@ -5,6 +5,8 @@ import BestSelling from '@/components/BestSelling/Index'
 import Delivery from '@/components/Delivery/Index'
 import React from 'react'
 import Items from '@/components/Items/Index'
+import Application from '@/components/Application/Index'
+import Footer from '@/components/Footer/Index'
 
 const page = () => {
   return (
@@ -20,6 +22,8 @@ const page = () => {
    <h2>-Ən çox satılan məhsul-</h2>
    <BestSelling/>
    <Items/>
+   <Application/>
+   <Footer/>
 </>
   )
 }
